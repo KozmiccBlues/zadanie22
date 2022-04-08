@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+<body>
+
+<div style="background: coral; width: 100%; height: 100px;" th:fragment="header">
+
+    <h1>Sklep ze słomkami</h1>
+
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <a href="/">Strona główna</a>
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <a href="/about">O nas</a>
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <a href="/form">Formularz kontaktowy</a>
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <a href="/products">Produkty</a>
+    </button>
+
+</div>
+
+<div class="footer" style="background: coral; width: auto; height: auto" th:fragment="footer">
+    <ul>
+        <li>
+           <p style="margin-left: 100px">E-mail: slomkigdansk@gmail.com</p>
+        </li>
+        <li>
+            <p style="margin-left: 100px">Nr telefonu do biura: 59 862 22 30</p>
+        </li>
+        <li>
+            <p style="margin-left: 100px">Nr komórkowy do przedstawiciela: 602 585 969 (dostępność 8-16)</p>
+        </li>
+    </ul>
+
+
+</div>
+
+
+
+</body>
+</html>
